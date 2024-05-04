@@ -1,0 +1,267 @@
+
+
+.navbar_1 {
+    background-color: #BD4221;;
+    height: 88px;
+}
+
+.navbar_2 {
+    background-color:  #4f4846;;
+    height: 44px;
+}
+
+body {
+    margin: 0px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+
+
+}
+
+#iscim {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    color: white;
+    margin-top: 0px;
+}
+
+
+img {
+    height: 80px;
+    width: 90px;
+    position: absolute;
+    /* Define a posição absoluta */
+    top: 45px;
+    /* Alinha o topo da imagem ao centro vertical do navbar */
+    right: 20%;
+    /* Alinha o lado direito da imagem ao centro horizontal do navbar */
+    transform: translate(50%, -50%);
+
+
+}
+
+.navbar_2 li {
+    list-style: none;
+}
+
+.navbar_2 button {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-right: 10px;
+
+}
+
+.home_button {
+    background-color: #1dc859;
+
+}
+
+.about_button {
+    background-color: #2781ae;
+
+}
+
+.contact_button {
+    background-color: #e74c3c;
+
+}
+
+.help_button {
+    background-color: #e52716;
+    margin-left: 56%;
+
+}
+
+.navbar_2 button:hover {
+    filter: brightness(0.9);
+    height: 30px;
+    width: 50px;
+}
+
+button {
+    margin-top: 4px;
+}
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    height: 09%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -32px;
+}
+
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links {
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social-links li a:hover {
+    color: #64e17b;
+}
+
+.footer-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer-section h3:hover {
+    color: #1dc859;
+}
+
+.contact {
+    color: rgb(255, 255, 255);
+    transition: color 0.3s ease;
+}
+
+.contact:hover {
+    color: #41bbcb;
+}
+
+
+.footer-section h3::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 2px;
+    background-color: #79d2e3;
+    transition: width 0.3s ease;
+}
+
+.footer-section h3:hover::after {
+    width: 50px;
+}
+
+
+.line {
+    border: none;
+    height: 1px;
+    background-color: #000;
+    width: 50%;
+    margin: 10px auto;
+}
+
+span {
+    margin-right: 12px;
+}
+
+.professional-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #dddddd;
+    /* Adiciona borda à tabela */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Adiciona sombra */
+}
+
+.professional-table th,
+.professional-table td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: center;
+    /* Centraliza o texto */
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.professional-table th {
+    background-color: #3dde68;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: white;
+}
+
+.professional-table tbody tr:hover {
+    background-color: #ffa361;
+    /* Altera a cor de fundo ao passar o mouse */
+}
+
+.professional-table tbody tr:nth-child(even) {
+    background-color: #99f4df;
+    /* Alterna a cor de fundo das linhas pares */
+}
+
+
+#button-menu {
+    margin-left: 12px;
+}
